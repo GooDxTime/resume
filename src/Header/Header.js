@@ -15,9 +15,6 @@ function Header(){
                     <a href='https://www.google.com/' className='link_style'>Skills</a>
                 </li>
                 <li className='Navigation_item'>
-                    <a href='https://www.google.com/' className='link_style'>Portfolio</a>
-                </li>
-                <li className='Navigation_item'>
                     <a href='https://www.google.com/' className='link_style'>Contacts</a>
                 </li>
             </ul>

@@ -152,6 +152,19 @@ function Body(){
                         </div>
                     </li>
                     <li className='technologies_item'>
+                    <span className='item_icon icon_github'></span>
+                        <p className='item_name'>
+                        GitHub
+                        </p>
+                        <div className='item_raiting'>
+                            <span className='raiting_star fill_star'/>
+                            <span className='raiting_star fill_star'/>
+                            <span className='raiting_star fill_star'/>
+                            <span className='raiting_star empty_star'/>
+                            <span className='raiting_star empty_star'/>
+                        </div>
+                    </li>
+                    <li className='technologies_item'>
                     <span className='item_icon icon_webpack'></span>
                         <p className='item_name'>
                         Webpack

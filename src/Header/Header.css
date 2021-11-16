@@ -8,7 +8,6 @@ a{
     margin: 0 auto;
     padding-top: 32px;
     padding-bottom: 32px;
-    /* border-bottom: .1px solid #828282; */
     box-shadow: 0px 1.5px 0px 0px rgba(0, 0, 0, 0.15);
 }
 
@@ -36,3 +35,8 @@ a{
     color: #070707;
 }
 
+@media (max-width:800px) {
+    .Navigation{
+        justify-content: space-around;
+    }
+}

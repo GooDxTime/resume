@@ -57,6 +57,7 @@ ul{
 .myPhoto{
     max-width: 943.61px;
     height: 587px;
+    margin-top: 20px;
     
     background-image: url('./image/ItsMe.png');
     background-size: cover;
@@ -118,6 +119,7 @@ ul{
 }
 
 .skills__list{
+    width: 100%;
     padding: 0;
     display: flex;
     justify-content: space-around;
@@ -130,11 +132,9 @@ ul{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-}
 
-/* .skills__list_item:not(:last-child){
-    margin-right: 80px;
-} */
+    flex: 0 0 25%;
+}
 
 .item_icon{
     display: inline-block;
@@ -237,6 +237,11 @@ ul{
     background-image: url("./image/webpack.svg");
 }
 
+.icon_github{
+    background-image: url("./image/github.svg");
+    background-size: cover;
+}
+
 
 @media (max-width:800px) {
     .skills__list{
@@ -255,9 +260,18 @@ ul{
     }
 
     .myPhoto{
-        
         background-position-y: 0px;
-        
-        
+    }
+
+    .myInfo{
+        justify-content: space-around;
+    }
+
+    .myInfo__date{
+        flex: 0 0 35%;
+    }
+
+    .myInfo__langue{
+        display: none;
     }
 }

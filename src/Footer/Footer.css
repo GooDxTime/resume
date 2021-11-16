@@ -63,3 +63,9 @@
 .icon_Drib{
     background-image: url("./img/email.svg");
 }
+
+@media (max-width:800px) {
+    .container_footer{
+        padding: 30px 20px;
+    }
+}
