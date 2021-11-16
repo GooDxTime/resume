@@ -1,0 +1,263 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    padding: 0;
+}
+
+.container{
+    max-width: 940px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    
+}
+
+.myInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.myInfo__name{
+    font-size: 47.3392px;
+    font-weight: 700;
+    line-height: 59px;
+    max-width: 125px;
+}
+
+.myInfo__date{
+    max-width: 200px;
+
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.myInfo__langue{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+
+    transform: rotate(-90deg) translateY(110%);
+}
+
+.text__langue{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #828282;
+}
+
+.active__langue{
+    color: #070707;
+}
+
+.myPhoto{
+    max-width: 943.61px;
+    height: 587px;
+    
+    background-image: url('./image/ItsMe.png');
+    background-size: cover;
+    background-position-y: -70px;
+    background-repeat: no-repeat;
+
+    border-radius: 15px;
+    
+}
+
+.AboutMe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background: #F6F6F6;
+}
+
+.AboutMe__heading{
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.AboutMe__text_area{
+    max-width: 480px;
+}
+
+.AboutMe__paragraph{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.AboutMe__paragraph:not(:last-child){
+    margin-bottom: 30px;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills__heading{
+    font-size: 34px;
+    line-height: 42px;
+}
+
+.skills__paragraph{
+    margin-top: 25px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+}
+
+.skills__list{
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.skills__list_item{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .skills__list_item:not(:last-child){
+    margin-right: 80px;
+} */
+
+.item_icon{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+}
+
+.icon_Addobe{
+    background-image: url("./image/Adobe.svg");
+}
+
+.icon_Figma{
+    width: 58px;
+    height: 88px;
+    background-image: url("./image/Figma.svg");
+}
+
+.icon_vsCode{
+    max-width: 90px;
+    height: 88px;
+    background-image: url("./image/vsCode.svg");
+    background-size: cover;
+}
+
+.icon_nodeJS{
+    background-image: url("./image/nodeJS.svg");
+    background-size: cover;
+}
+
+.item_name{
+   
+    margin-top: 25px;
+    max-width: 80px;
+    text-align: center;
+
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+}
+
+.item_raiting{
+    margin-top: 25px;
+    display: flex;
+}
+
+.raiting_star{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+}
+
+.raiting_star:not(:last-child){
+    margin-right: 5px;
+}
+
+.fill_star{
+    background-image: url("./image/fill_star.svg");
+}
+
+.empty_star{
+    background-image: url("./image/empty_star.svg");
+}
+
+.technologies{
+    width: 100%;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.technologies_item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    flex: 0 0 33%;
+}
+
+.icon_html{
+    background-image: url("./image/html5.svg");
+}
+
+.icon_css{
+    background-image: url("./image/css3.svg");
+}
+
+.icon_javascript{
+    background-image: url("./image/javascript.svg");
+}
+
+.icon_react{
+    background-image: url("./image/React.svg");
+}
+
+.icon_webpack{
+    background-image: url("./image/webpack.svg");
+}
+
+
+@media (max-width:800px) {
+    .skills__list{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+    }
+    .technologies{
+        /* flex-direction: column; */
+    }
+    .skills__list_item{
+        flex: 0 0 40%;
+        
+    }
+    .technologies_item{
+        flex: 0 0 30%;
+    }
+
+    .myPhoto{
+        
+        background-position-y: 0px;
+        
+        
+    }
+}

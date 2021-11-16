@@ -1,0 +1,65 @@
+.container_footer{
+    padding: 100px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F6F6F6;
+
+}
+
+.header_footer{
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.paragraph_footer{
+    margin-top: 20px;
+    max-width: 275px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.btn_footer{
+    margin-top: 20px;
+}
+
+.btn{
+    padding: 10px 30px;
+    background: #070707;
+    border-radius: 30px;
+    color: #fff;
+}
+
+.list_link{
+    display: flex;
+    margin-top: 55px;
+    padding: 0;
+}
+
+.link_item:not(:last-child){
+    margin-right: 60px;
+}
+
+.icon{
+    display: inline-block;
+    width: 41px;
+    height: 41px;
+}
+
+.icon_LIn{
+    background-image: url("./img/LinkedIn.svg");
+}
+
+.icon_Inst{
+    background-image: url("./img/Instagram.svg");
+}
+
+.icon_Telegram{
+    background-image: url("./img/telegram.svg");
+}
+
+.icon_Drib{
+    background-image: url("./img/email.svg");
+}
