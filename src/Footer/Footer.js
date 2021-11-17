@@ -10,17 +10,17 @@ You are welcome!</p>
         <button className='btn btn_footer'>Send message</button>
         <ul className='list_link'>
             <li className='link_item'>
-                <a href='' className='icon_Telegram icon'></a>
+                <a href='https://t.me/Goodxtime' target="_blank" rel="noreferrer" ><span className='icon_Telegram icon'></span></a>
             </li>
             <li className='link_item'>
-                <a href='' className='icon_LIn icon'></a>
+                <a href='https://www.linkedin.com/in/Stas-Kozak-414968225' target="_blank" rel="noreferrer" className='icon_LIn icon'><span></span></a>
             </li>
             <li className='link_item'>
-                <a href='' className='icon_Inst icon'></a>
+                <a href='https://www.instagram.com/goodxxtime/' target="_blank" rel="noreferrer" className='icon_Inst icon'><span></span></a>
             </li>
             
             <li className='link_item'>
-                <a href='' className='icon_Drib icon'></a>
+                <a href='mailto:kozak.stasan@gmail.com' target="_blank" rel="noreferrer" className='icon_Drib icon'><span></span></a>
             </li>
         </ul>
     </div>

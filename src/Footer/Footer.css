@@ -60,9 +60,18 @@
     background-image: url("./img/telegram.svg");
 }
 
+.icon_Telegram:hover .icon_Telegram path{ 
+    
+        stroke: #bf360c;
+        stroke-width: 2;
+        transition: 0.8s;
+        stroke-dasharray: 400, 0; /* эффект сплошной линии */
+       
+}
 .icon_Drib{
     background-image: url("./img/email.svg");
 }
+
 
 @media (max-width:800px) {
     .container_footer{

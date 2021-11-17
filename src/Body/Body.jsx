@@ -2,6 +2,8 @@ import React from "react";
 import './Body.css'
 
 function Body(){
+    
+
     return(
         <div className='Body'>
             <div className='container Info'>
@@ -152,9 +154,9 @@ function Body(){
                         </div>
                     </li>
                     <li className='technologies_item'>
-                    <span className='item_icon icon_github'></span>
+                    <span className='item_icon icon_git'></span>
                         <p className='item_name'>
-                        GitHub
+                        Git
                         </p>
                         <div className='item_raiting'>
                             <span className='raiting_star fill_star'/>

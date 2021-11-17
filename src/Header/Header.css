@@ -40,3 +40,9 @@ a{
         justify-content: space-around;
     }
 }
+
+@media (max-width:400px) {
+    .Header{
+        display: none;
+    }
+}
